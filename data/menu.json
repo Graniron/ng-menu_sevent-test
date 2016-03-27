@@ -1,0 +1,10 @@
+[
+  {"name": "Juice", "price": 12},
+  {"name": "Water", "price": 3},
+  {"name": "Cola", "price": 10},
+  {"name": "Salat", "price": 17},
+  {"name": "Rice", "price": 20},
+  {"name": "Soup", "price": 19},
+  {"name": "Fish", "price": 24},
+  {"name": "Biscuit", "price": 12}
+]

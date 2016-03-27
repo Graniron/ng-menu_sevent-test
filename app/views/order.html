@@ -1,0 +1,9 @@
+<h2>Your Order:</h2>
+<ul class="list-group">
+  <li ng-repeat="item in order.list track by $index" class="list-group-item menu_item">
+    {{item.name}} - {{item.price | currency}}
+  </li>
+</ul>
+<h3>Total: {{order.total | currency}}</h3>
+
+

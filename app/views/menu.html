@@ -1,0 +1,8 @@
+<h1>Menu</h1>
+<ul class="list-group">
+  <li ng-repeat="item in menu.data" class="list-group-item">
+    <span class="menu_item">{{item.name}} - {{item.price | currency}}</span>
+    <button ng-click="add_to_order($index)" id="{{'item' + $index}}" class="add_to_order btn btn-success pull-right">Add to order</button>
+  </li>
+</ul>
+<a href="#/order" class="btn btn-primary btn-block">Checkout</a>
